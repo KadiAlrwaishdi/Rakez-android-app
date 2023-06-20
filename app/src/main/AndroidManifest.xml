@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rakez">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="راكز"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rakez" >
+        <activity
+            android:name=".contactUs"
+            android:exported="false" />
+        <activity
+            android:name=".aboutRakez"
+            android:exported="false" />
+        <activity
+            android:name=".care"
+            android:exported="false" />
+        <activity
+            android:name=".Kids"
+            android:exported="false" />
+        <activity
+            android:name=".Women"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".notedetails"
+            android:exported="false"
+            android:parentActivityName=".mySize"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".editnoteactivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".createSize"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".mySize"
+            android:exported="false" />
+        <activity
+            android:name=".ch_shoes"
+            android:exported="false" />
+        <activity
+            android:name=".ch_boy"
+            android:exported="false" />
+        <activity
+            android:name=".ch_girl"
+            android:exported="false" />
+        <activity
+            android:name=".toddler"
+            android:exported="false" />
+        <activity
+            android:name=".baby_beany"
+            android:exported="false" />
+        <activity
+            android:name=".women_pants"
+            android:exported="false" />
+        <activity
+            android:name=".women_skirt"
+            android:exported="false" />
+        <activity
+            android:name=".women_top"
+            android:exported="false" />
+        <activity
+            android:name=".women_dress"
+            android:exported="false" />
+        <activity
+            android:name=".men"
+            android:exported="false" />
+        <activity
+            android:name=".logout"
+            android:exported="false" />
+        <activity
+            android:name=".baby"
+            android:exported="false" />
+        <activity
+            android:name=".women_maternity"
+            android:exported="false" />
+        <activity
+            android:name=".women_abaya"
+            android:exported="false" />
+        <activity
+            android:name=".women_tight"
+            android:exported="false" />
+        <activity
+            android:name=".women_ring"
+            android:exported="false" />
+        <activity
+            android:name=".women_belt"
+            android:exported="false" />
+        <activity
+            android:name=".women_shoes"
+            android:exported="false" />
+        <activity
+            android:name=".women_panties1"
+            android:exported="false" />
+        <activity
+            android:name=".women_bra"
+            android:exported="false" />
+        <activity
+            android:name=".men_pants"
+            android:exported="false" />
+        <activity
+            android:name=".men_top"
+            android:exported="false" />
+        <activity
+            android:name=".men_thoub"
+            android:exported="false" />
+        <activity
+            android:name=".men_underwear"
+            android:exported="false" />
+        <activity
+            android:name=".men_shemagh"
+            android:exported="false" />
+        <activity
+            android:name=".men_shoes"
+            android:exported="false" />
+        <activity
+            android:name=".men_belt"
+            android:exported="false" />
+        <activity
+            android:name=".men_hat"
+            android:exported="false" />
+        <activity android:name=".MainActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
